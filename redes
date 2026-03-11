@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ABEJA</title>
+
+<style>
+
+body{
+margin:0;
+font-family: 'Segoe UI', sans-serif;
+background: linear-gradient(135deg,#FFD54F,#FF9800,#8D6E63);
+display:flex;
+justify-content:center;
+align-items:center;
+height:100vh;
+}
+
+.card{
+background:white;
+width:360px;
+padding:30px;
+border-radius:25px;
+text-align:center;
+box-shadow:0 12px 30px rgba(0,0,0,0.25);
+}
+
+.logo{
+width:220px;
+margin-bottom:10px;
+}
+
+h1{
+margin:5px;
+font-size:30px;
+color:#5D4037;
+}
+
+.subtitle{
+font-size:14px;
+color:#8D6E63;
+margin-bottom:15px;
+}
+
+.description{
+font-size:15px;
+margin-bottom:25px;
+color:#6D4C41;
+}
+
+.social{
+display:block;
+margin:12px 0;
+padding:14px;
+border-radius:12px;
+text-decoration:none;
+color:white;
+font-weight:bold;
+transition:0.3s;
+}
+
+.instagram{background:#E1306C;}
+.facebook{background:#1877F2;}
+.tiktok{background:#000000;}
+.whatsapp{background:#25D366;}
+
+.social:hover{
+transform:scale(1.06);
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="card">
+
+<img src="abeja.png" class="logo">
+
+<h1>A.B.E.J.A</h1>
+
+<div class="subtitle">
+Aprendizaje basado en juegos activos
+</div>
+
+<div class="description">
+Dónde aprender también es jugar. Es posible con ABEJA.
+</div>
+
+<a class="social instagram" href="https://www.instagram.com/a.b.e.j.a.06/" target="_blank">
+Instagram
+</a>
+
+<a class="social facebook" href="https://www.facebook.com/profile.php?id=61582158508986" target="_blank">
+Facebook
+</a>
+
+<a class="social tiktok" href="https://www.tiktok.com/@a.b.e.j.a_6?is_from_webapp=1&sender_device=pc" target="_blank">
+TikTok
+</a>
+
+<a class="social whatsapp" href="https://chat.whatsapp.com/F308i5n7oTT2ZNobhscenb" target="_blank">
+Grupo de WhatsApp
+</a>
+
+</div>
+
+</body>
+</html>
